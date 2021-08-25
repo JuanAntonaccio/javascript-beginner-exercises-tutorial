@@ -8,12 +8,12 @@ function sing(){
   resu=resu+" whisper words of wisdom, ";
   for (let i=1;i<6;i++){
       resu=resu+rep;
-}
-resu=resu+" there will be an answer, ";
-resu=resu+rep2;
-return resu;
+  }
+  resu=resu+" there will be an answer, ";
+  resu=resu+rep2;
+  console.log(resu);
 }
 
+sing();
 //Your code above ^^^
 
-console.log(sing());
